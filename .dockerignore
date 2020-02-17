@@ -1,0 +1,6 @@
+dist/
+yarn-*.log
+.env.sample
+README.md
+node_modules
+_docs/
