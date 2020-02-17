@@ -31,6 +31,32 @@ Click this button below.
 
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
+Select ...
+
+* GCP Project name
+* Region to deploy
+
+Copy the URL of your deployment.
+
+### 4. Configure the Slash command
+
+Configure you slash command and press `save`.
+
+* Command: Your trigger command name
+* Request URL: Paste your Cloud Run's deployment URL and add `/cheet`
+* Short Description: Tell your users what this can do
+* Usage hint: Enter `help`
+
+![Slash](./_docs/images/slash.png)
+
+### 5. Install your Slack bot
+
+Finally, install your bot into your actual workspace.
+
+![Install](./_docs/images/install.png)
+
+---
+
 ## Contribute
 
 I welcome any contribution:) Please submit a pull request.
